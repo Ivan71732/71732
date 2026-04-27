@@ -1,1 +1,43 @@
+<!DOCTYPE html>
+<html lang="pl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Zadanie 5 - Formularz 71732</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
 
+<header>
+    <h1>Formularz kontaktowy</h1>
+    <p>Numer indeksu: 71732</p>
+</header>
+
+<main>
+    <form id="contactForm">
+        <label for="firstName">Imię:</label>
+        <input type="text" id="firstName">
+
+        <label for="lastName">Nazwisko:</label>
+        <input type="text" id="lastName">
+
+        <label for="email">E-mail:</label>
+        <input type="email" id="email">
+
+        <label for="message">Wiadomość:</label>
+        <textarea id="message"></textarea>
+
+        <button type="submit">Wyślij</button>
+    </form>
+
+    <div id="errors"></div>
+    <div id="success"></div>
+</main>
+
+<footer>
+    <p>© 2026 Ivan | Numer indeksu: 71732</p>
+</footer>
+
+<script src="script.js"></script>
+</body>
+</html>
